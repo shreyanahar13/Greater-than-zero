@@ -1,0 +1,7 @@
+x=[]
+n=int(input("Enter the number of terms in the list "))
+for i in range(n):
+  y=int(input("Enter the value "))
+  if y > 0:
+    x.append(y)
+print(x)
